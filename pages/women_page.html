@@ -15,20 +15,19 @@
   <title>Woman Page</title>
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,500,700&display=swap"
     rel="stylesheet" />
 
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="../css/style.css" rel="stylesheet" />
 
-  <!-- java script -->
-  <script src="js/script.js"></script>
+
 
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="../css/responsive.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -46,10 +45,10 @@
           </div>
           <div id="myNav" class="overlay">
             <div class="overlay-content">
-              <a href="index.html">HOME</a>
-              <a href="women_page.html">WOMAN</a>
-              <a href="shop.html">MEN</a>
-              <a href="kid_page.html">KID</a>
+              <a href="../index.html">HOME</a>
+              <a href="../pages/women_page.html">WOMAN</a>
+              <a href="../pages/men_page.html">MEN</a>
+              <a href="../pages/kid_page.html">KID</a>
             </div>
           </div>
         </div>
@@ -57,7 +56,7 @@
         <span>
           <!-- Centered AVYAYA Logo -->
           <div class="centered-logo">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="../index.html">
               <span>AVYAYA</span>
             </a>
           </div>
@@ -65,15 +64,20 @@
         </a>
         <div class="ml-auto">
           <form class="form-inline my-2 my-lg-0 mb-3 mb-lg-0">
-            <button class="btn my-2 my-sm-0 nav_cart-btn" type="button" onclick="toggleCartDropdown()">
-            </button>
-            <button class="btn my-2 my-sm-0 nav_search-btn" type="submit"></button>
+            
+            <a href="#" class="btn my-2 my-sm-0 nav_cart-btn"></a>
 
-            <div id="cartDropdown" class="cart-dropdown-content">
-              <!-- Add your cart items or content here -->
+            <a href="../pages/cart.html" class="btn my-2 my-sm-0 nav_search-btn"></a>
+            
+            <a href="../pages/signin.html" class="btn my-2 my-sm-0 nav_profile-btn">
+              <i class="fa-thin fa-user"></i>
+            </a>
+
+            <!-- <div id="cartDropdown" class="cart-dropdown-content">
               <p>Your cart is empty.</p>
-              <a href="cart.html">Go to cart</a>
-            </div>
+              <a href="../pages/cart.html">Go to cart</a>
+            </div> -->
+
           </form>
         </div>
       </nav>
@@ -82,9 +86,9 @@
 
   <div class="slider">
     <div class="slides">
-      <div class="slide"><img src="image/icons/others/1.jpg" alt="Slide 1"></div>
-      <div class="slide"><img src="image/icons/others/2.jpg" alt="Slide 2"></div>
-      <div class="slide"><img src="image/icons/others/3.jpg" alt="Slide 3"></div>
+      <div class="slide"><img src="../image/icons/others/1.jpg" alt="Slide 1"></div>
+      <div class="slide"><img src="../image/icons/others/2.jpg" alt="Slide 2"></div>
+      <div class="slide"><img src="../image/icons/others/3.jpg" alt="Slide 3"></div>
     </div>
     <div class="controls">
       <button class="prev">&#10094;</button>
@@ -100,13 +104,13 @@
         </h4>
         <hr>
         <h3>
-          Shop The Latest
+          Women's fashion
         </h3>
       </div>
 
       <div class="products">
-        <a href="product1.html" class="product-card">
-          <img src="image/icons/others/4.jpg" alt="Product 1">
+        <a href="#" class="product-card">
+          <img src="../image/icons/others/4.jpg" alt="Product 1">
           <h3>Product 1</h3>
           <p>$29.99</p>
           <div class="buttons">
@@ -114,8 +118,8 @@
             <button class="btn btn2">View Details</button>
           </div>
         </a>
-        <a href="product2.html" class="product-card">
-          <img src="image/icons/others/4.jpg" alt="Product 2">
+        <a href="#" class="product-card">
+          <img src="../image/icons/others/4.jpg" alt="Product 2">
           <h3>Product 2</h3>
           <p>$39.99</p>
           <div class="buttons">
@@ -123,55 +127,8 @@
             <button class="btn btn2">View Details</button>
           </div>
         </a>
-        <a href="product3.html" class="product-card">
-          <img src="image/icons/others/4.jpg" alt="Product 3">
-          <h3>Product 3</h3>
-          <p>$49.99</p>
-          <div class="buttons">
-            <button class="btn btn1">Add to Cart</button>
-            <button class="btn btn2">View Details</button>
-          </div>
-        </a>
-
-        <a href="product1.html" class="product-card">
-          <img src="image/icons/others/4.jpg" alt="Product 1">
-          <h3>Product 1</h3>
-          <p>$29.99</p>
-          <div class="buttons">
-            <button class="btn btn1">Add to Cart</button>
-            <button class="btn btn2">View Details</button>
-          </div>
-        </a>
-        <a href="product2.html" class="product-card">
-          <img src="image/icons/others/4.jpg" alt="Product 2">
-          <h3>Product 2</h3>
-          <p>$39.99</p>
-          <div class="buttons">
-            <button class="btn btn1">Add to Cart</button>
-            <button class="btn btn2">View Details</button>
-          </div>
-        </a>
-        <a href="product3.html" class="product-card">
-          <img src="image/icons/others/4.jpg" alt="Product 3">
-          <h3>Product 3</h3>
-          <p>$49.99</p>
-          <div class="buttons">
-            <button class="btn btn1">Add to Cart</button>
-            <button class="btn btn2">View Details</button>
-          </div>
-        </a>
-        </a>
-        <a href="product2.html" class="product-card">
-          <img src="image/icons/others/4.jpg" alt="Product 2">
-          <h3>Product 2</h3>
-          <p>$39.99</p>
-          <div class="buttons">
-            <button class="btn btn1">Add to Cart</button>
-            <button class="btn btn2">View Details</button>
-          </div>
-        </a>
-        <a href="product3.html" class="product-card">
-          <img src="image/icons/others/4.jpg" alt="Product 3">
+        <a href="#" class="product-card">
+          <img src="../image/icons/others/4.jpg" alt="Product 3">
           <h3>Product 3</h3>
           <p>$49.99</p>
           <div class="buttons">
@@ -195,19 +152,19 @@
             <hr>
             <div>
               <a href="">
-                <img src="images/fb.png" alt="">
+                <img src="../images/fb.png" alt="">
               </a>
             </div>
             <hr>
             <div>
               <a href="">
-                <img src="images/twitter.png" alt="">
+                <img src="../images/twitter.png" alt="">
               </a>
             </div>
             <hr>
             <div>
               <a href="">
-                <img src="images/insta.png" alt="">
+                <img src="../images/insta.png" alt="">
               </a>
             </div>
             <hr>
@@ -219,6 +176,21 @@
         </p>
       </footer>
       <!-- footer section -->
+
+      <!-- java script -->
+      <script src="../js/script.js"></script>
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+      </script>
+      <script>
+        function openNav() {
+          document.getElementById("myNav").classList.toggle("menu_width");
+          document
+            .querySelector(".custom_menu-btn")
+            .classList.toggle("menu_btn-style");
+
+        }
+      </script>
 
 </body>
 
